@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ElementosQuimicos.MainPage"
+             xmlns:vm="clr-namespace:ElementosQuimicos.ModelViews"
+             x:DataType="vm:ElementoQuimicoViewModel">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" IconImageSource="icons8_info.png"/>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout>
+        <HorizontalStackLayout Margin="20, 0, 20, 0" HorizontalOptions="Center">
+            <!--Simbolo do Elemento-->
+            <Label Text="{Binding Elementt.Simbolo}" FontFamily="comicbd.ttf" FontSize="55" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="{Binding CorClassificação}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout>
+            <Frame BackgroundColor="{Binding CorClassificação}" CornerRadius="35" Margin="20, 0, 20, 0" HeightRequest="310">
+                <VerticalStackLayout>
+
+                    <!--Nome do Elemento-->
+                    <StackLayout >
+                        <Label Text="{Binding Elementt.Nome_Elemento}" FontFamily="comicbd.ttf" TextColor="White" HorizontalOptions="Start" FontSize="30"/>
+                    </StackLayout>
+
+                    <!--Numero Atômico do Elemento-->
+                    <Label Text="Número Atômico:" TextColor="White" FontSize="25" FontFamily="comic.ttf"/>
+                    <Label Text="{Binding Elementt.Numero_Atomico}" FontFamily="comic.ttf" HorizontalTextAlignment="Start" TextColor="White" FontSize="20"/>
+
+                    <!--Massa atômica do Elemento-->
+                    <Label Text="Massa Atômica:" TextColor="White" FontSize="25" FontFamily="comic.ttf"/>
+                    <Label Text="{Binding Elementt.Massa}" FontFamily="comic.ttf" TextColor="White"  HorizontalTextAlignment="Start" FontSize="20"/>
+
+                    <!--Configuração eletrônica do Elemento-->
+                    <Label Text="Distribuição Eletrónica:" TextColor="White" FontSize="25" FontFamily="comic.ttf"/>
+                    <Label Text="{Binding Elementt.Camada_Eletrons}" FontFamily="comic.ttf" HorizontalTextAlignment="Start" TextColor="White" FontSize="20" Margin="0,0,0,10"/>
+
+                    <Label Text="{Binding Elementt.Classificacao}" TextColor="White" HorizontalTextAlignment="Center" FontSize="15" FontFamily="comic.ttf"/>
+
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+        <StackLayout>
+            <Entry Text="{Binding SimboloEntry}" PlaceholderColor="Gray" Margin="30, 5, 30, 0" Placeholder="Digite o Numero Atômico" FontSize="20" FontFamily="comic.ttf" />
+            <Button Command="{Binding CarregarElementosCommand}" Margin="30, 0, 30, 0" Text="Buscar" CornerRadius="10" FontSize="20" FontFamily="comic.ttf" TextColor="White" BackgroundColor="#15B6C2"/>
+        </StackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

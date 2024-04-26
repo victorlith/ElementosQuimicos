@@ -1,0 +1,946 @@
+[
+   {
+      "Numero_Atomico": 1,
+      "Simbolo": "H",
+      "Nome_Elemento": "Hidrogênio",
+      "Massa": 1.008,
+      "Camada_Eletrons": "1s¹",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 2,
+      "Simbolo": "He",
+      "Nome_Elemento": "Hélio",
+      "Massa": 4.0026,
+      "Camada_Eletrons": "1s²",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 3,
+      "Simbolo": "Li",
+      "Nome_Elemento": "Lítio",
+      "Massa": 6.94,
+      "Camada_Eletrons": "[He] 2s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 4,
+      "Simbolo": "Be",
+      "Nome_Elemento": "Berílio",
+      "Massa": 9.0122,
+      "Camada_Eletrons": "[He] 2s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 5,
+      "Simbolo": "B",
+      "Nome_Elemento": "Boro",
+      "Massa": 10.81,
+      "Camada_Eletrons": "[He] 2s² 2p¹",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 6,
+      "Simbolo": "C",
+      "Nome_Elemento": "Carbono",
+      "Massa": 12.011,
+      "Camada_Eletrons": "[He] 2s² 2p²",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 7,
+      "Simbolo": "N",
+      "Nome_Elemento": "Nitrogênio",
+      "Massa": 14.007,
+      "Camada_Eletrons": "[He] 2s² 2p³",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 8,
+      "Simbolo": "O",
+      "Nome_Elemento": "Oxigênio",
+      "Massa": 15.999,
+      "Camada_Eletrons": "[He] 2s² 2p⁴",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 9,
+      "Simbolo": "F",
+      "Nome_Elemento": "Flúor",
+      "Massa": 18.998,
+      "Camada_Eletrons": "[He] 2s² 2p⁵",
+      "Classificacao": "Halogênio"
+   },
+   {
+      "Numero_Atomico": 10,
+      "Simbolo": "Ne",
+      "Nome_Elemento": "Neônio",
+      "Massa": 20.18,
+      "Camada_Eletrons": "[He] 2s² 2p⁶",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 11,
+      "Simbolo": "Na",
+      "Nome_Elemento": "Sódio",
+      "Massa": 22.99,
+      "Camada_Eletrons": "[Ne] 3s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 12,
+      "Simbolo": "Mg",
+      "Nome_Elemento": "Magnésio",
+      "Massa": 24.305,
+      "Camada_Eletrons": "[Ne] 3s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 13,
+      "Simbolo": "Al",
+      "Nome_Elemento": "Alumínio",
+      "Massa": 26.982,
+      "Camada_Eletrons": "[Ne] 3s² 3p¹",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 14,
+      "Simbolo": "Si",
+      "Nome_Elemento": "Silício",
+      "Massa": 28.085,
+      "Camada_Eletrons": "[Ne] 3s² 3p²",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 15,
+      "Simbolo": "P",
+      "Nome_Elemento": "Fósforo",
+      "Massa": 30.974,
+      "Camada_Eletrons": "[Ne] 3s² 3p³",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 16,
+      "Simbolo": "S",
+      "Nome_Elemento": "Enxofre",
+      "Massa": 32.06,
+      "Camada_Eletrons": "[Ne] 3s² 3p⁴",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 17,
+      "Simbolo": "Cl",
+      "Nome_Elemento": "Cloro",
+      "Massa": 35.45,
+      "Camada_Eletrons": "[Ne] 3s² 3p⁵",
+      "Classificacao": "Halogênio"
+   },
+   {
+      "Numero_Atomico": 18,
+      "Simbolo": "Ar",
+      "Nome_Elemento": "Argônio",
+      "Massa": 39.948,
+      "Camada_Eletrons": "[Ne] 3s² 3p⁶",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 19,
+      "Simbolo": "K",
+      "Nome_Elemento": "Potássio",
+      "Massa": 39.098,
+      "Camada_Eletrons": "[Ar] 4s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 20,
+      "Simbolo": "Ca",
+      "Nome_Elemento": "Cálcio",
+      "Massa": 40.078,
+      "Camada_Eletrons": "[Ar] 4s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 21,
+      "Simbolo": "Sc",
+      "Nome_Elemento": "Escândio",
+      "Massa": 44.956,
+      "Camada_Eletrons": "[Ar] 3d¹ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 22,
+      "Simbolo": "Ti",
+      "Nome_Elemento": "Titânio",
+      "Massa": 47.867,
+      "Camada_Eletrons": "[Ar] 3d² 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 23,
+      "Simbolo": "V",
+      "Nome_Elemento": "Vanádio",
+      "Massa": 50.942,
+      "Camada_Eletrons": "[Ar] 3d³ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 24,
+      "Simbolo": "Cr",
+      "Nome_Elemento": "Cromo",
+      "Massa": 51.996,
+      "Camada_Eletrons": "[Ar] 3d⁵ 4s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 25,
+      "Simbolo": "Mn",
+      "Nome_Elemento": "Manganês",
+      "Massa": 54.938,
+      "Camada_Eletrons": "[Ar] 3d⁵ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 26,
+      "Simbolo": "Fe",
+      "Nome_Elemento": "Ferro",
+      "Massa": 55.845,
+      "Camada_Eletrons": "[Ar] 3d⁶ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 27,
+      "Simbolo": "Co",
+      "Nome_Elemento": "Cobalto",
+      "Massa": 58.933,
+      "Camada_Eletrons": "[Ar] 3d⁷ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 28,
+      "Simbolo": "Ni",
+      "Nome_Elemento": "Níquel",
+      "Massa": 58.693,
+      "Camada_Eletrons": "[Ar] 3d⁸ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 29,
+      "Simbolo": "Cu",
+      "Nome_Elemento": "Cobre",
+      "Massa": 63.546,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 30,
+      "Simbolo": "Zn",
+      "Nome_Elemento": "Zinco",
+      "Massa": 65.38,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 31,
+      "Simbolo": "Ga",
+      "Nome_Elemento": "Gálio",
+      "Massa": 69.723,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p¹",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 32,
+      "Simbolo": "Ge",
+      "Nome_Elemento": "Germânio",
+      "Massa": 72.63,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p²",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 33,
+      "Simbolo": "As",
+      "Nome_Elemento": "Arsênio",
+      "Massa": 74.922,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p³",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 34,
+      "Simbolo": "Se",
+      "Nome_Elemento": "Selênio",
+      "Massa": 78.971,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p⁴",
+      "Classificacao": "Não metal"
+   },
+   {
+      "Numero_Atomico": 35,
+      "Simbolo": "Br",
+      "Nome_Elemento": "Bromo",
+      "Massa": 79.904,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p⁵",
+      "Classificacao": "Halogênio"
+   },
+   {
+      "Numero_Atomico": 36,
+      "Simbolo": "Kr",
+      "Nome_Elemento": "Criptônio",
+      "Massa": 83.798,
+      "Camada_Eletrons": "[Ar] 3d¹⁰ 4s² 4p⁶",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 37,
+      "Simbolo": "Rb",
+      "Nome_Elemento": "Rubídio",
+      "Massa": 85.468,
+      "Camada_Eletrons": "[Kr] 5s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 38,
+      "Simbolo": "Sr",
+      "Nome_Elemento": "Estrôncio",
+      "Massa": 87.62,
+      "Camada_Eletrons": "[Kr] 5s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 39,
+      "Simbolo": "Y",
+      "Nome_Elemento": "Ítrio",
+      "Massa": 88.906,
+      "Camada_Eletrons": "[Kr] 4d¹ 5s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 40,
+      "Simbolo": "Zr",
+      "Nome_Elemento": "Zircônio",
+      "Massa": 91.224,
+      "Camada_Eletrons": "[Kr] 4d² 5s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 41,
+      "Simbolo": "Nb",
+      "Nome_Elemento": "Nióbio",
+      "Massa": 92.906,
+      "Camada_Eletrons": "[Kr] 4d⁴ 5s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 42,
+      "Simbolo": "Mo",
+      "Nome_Elemento": "Molibdênio",
+      "Massa": 95.95,
+      "Camada_Eletrons": "[Kr] 4d⁵ 5s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 43,
+      "Simbolo": "Tc",
+      "Nome_Elemento": "Tecnécio",
+      "Massa": 98,
+      "Camada_Eletrons": "[Kr] 4d⁵ 5s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 44,
+      "Simbolo": "Ru",
+      "Nome_Elemento": "Rutênio",
+      "Massa": 101.07,
+      "Camada_Eletrons": "[Kr] 4d⁷ 5s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 45,
+      "Simbolo": "Rh",
+      "Nome_Elemento": "Ródio",
+      "Massa": 102.91,
+      "Camada_Eletrons": "[Kr] 4d⁸ 5s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 46,
+      "Simbolo": "Pd",
+      "Nome_Elemento": "Paládio",
+      "Massa": 106.42,
+      "Camada_Eletrons": "[Kr] 4d¹⁰",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 47,
+      "Simbolo": "Ag",
+      "Nome_Elemento": "Prata",
+      "Massa": 107.87,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 48,
+      "Simbolo": "Cd",
+      "Nome_Elemento": "Cádmio",
+      "Massa": 112.41,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 49,
+      "Simbolo": "In",
+      "Nome_Elemento": "Índio",
+      "Massa": 114.82,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p¹",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 50,
+      "Simbolo": "Sn",
+      "Nome_Elemento": "Estanho",
+      "Massa": 118.71,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p²",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 51,
+      "Simbolo": "Sb",
+      "Nome_Elemento": "Antimônio",
+      "Massa": 121.76,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p³",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 52,
+      "Simbolo": "Te",
+      "Nome_Elemento": "Telúrio",
+      "Massa": 127.6,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p⁴",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 53,
+      "Simbolo": "I",
+      "Nome_Elemento": "Iodo",
+      "Massa": 126.9,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p⁵",
+      "Classificacao": "Halogênio"
+   },
+   {
+      "Numero_Atomico": 54,
+      "Simbolo": "Xe",
+      "Nome_Elemento": "Xenônio",
+      "Massa": 131.29,
+      "Camada_Eletrons": "[Kr] 4d¹⁰ 5s² 5p⁶",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 55,
+      "Simbolo": "Cs",
+      "Nome_Elemento": "Césio",
+      "Massa": 132.91,
+      "Camada_Eletrons": "[Xe] 6s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 56,
+      "Simbolo": "Ba",
+      "Nome_Elemento": "Bário",
+      "Massa": 137.33,
+      "Camada_Eletrons": "[Xe] 6s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 57,
+      "Simbolo": "La",
+      "Nome_Elemento": "Lantânio",
+      "Massa": 138.91,
+      "Camada_Eletrons": "[Xe] 5d¹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 58,
+      "Simbolo": "Ce",
+      "Nome_Elemento": "Cério",
+      "Massa": 140.12,
+      "Camada_Eletrons": "[Xe] 4f¹ 5d¹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 59,
+      "Simbolo": "Pr",
+      "Nome_Elemento": "Praseodímio",
+      "Massa": 140.91,
+      "Camada_Eletrons": "[Xe] 4f³ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 60,
+      "Simbolo": "Nd",
+      "Nome_Elemento": "Neodímio",
+      "Massa": 144.24,
+      "Camada_Eletrons": "[Xe] 4f⁴ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 61,
+      "Simbolo": "Pm",
+      "Nome_Elemento": "Promécio",
+      "Massa": 145,
+      "Camada_Eletrons": "[Xe] 4f⁵ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 62,
+      "Simbolo": "Sm",
+      "Nome_Elemento": "Samário",
+      "Massa": 150.36,
+      "Camada_Eletrons": "[Xe] 4f⁶ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 63,
+      "Simbolo": "Eu",
+      "Nome_Elemento": "Európio",
+      "Massa": 151.96,
+      "Camada_Eletrons": "[Xe] 4f⁷ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 64,
+      "Simbolo": "Gd",
+      "Nome_Elemento": "Gadolínio",
+      "Massa": 157.25,
+      "Camada_Eletrons": "[Xe] 4f⁷ 5d¹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 65,
+      "Simbolo": "Tb",
+      "Nome_Elemento": "Térbio",
+      "Massa": 158.93,
+      "Camada_Eletrons": "[Xe] 4f⁹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 66,
+      "Simbolo": "Dy",
+      "Nome_Elemento": "Disprósio",
+      "Massa": 162.5,
+      "Camada_Eletrons": "[Xe] 4f¹⁰ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 67,
+      "Simbolo": "Ho",
+      "Nome_Elemento": "Hólmio",
+      "Massa": 164.93,
+      "Camada_Eletrons": "[Xe] 4f¹¹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 68,
+      "Simbolo": "Er",
+      "Nome_Elemento": "Érbio",
+      "Massa": 167.26,
+      "Camada_Eletrons": "[Xe] 4f¹² 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 69,
+      "Simbolo": "Tm",
+      "Nome_Elemento": "Túlio",
+      "Massa": 168.93,
+      "Camada_Eletrons": "[Xe] 4f¹³ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 70,
+      "Simbolo": "Yb",
+      "Nome_Elemento": "Itérbio",
+      "Massa": 173.05,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 71,
+      "Simbolo": "Lu",
+      "Nome_Elemento": "Lutécio",
+      "Massa": 174.97,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹ 6s²",
+      "Classificacao": "Lantanídeo"
+   },
+   {
+      "Numero_Atomico": 72,
+      "Simbolo": "Hf",
+      "Nome_Elemento": "Háfnio",
+      "Massa": 178.49,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d² 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 73,
+      "Simbolo": "Ta",
+      "Nome_Elemento": "Tântalo",
+      "Massa": 180.95,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d³ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 74,
+      "Simbolo": "W",
+      "Nome_Elemento": "Tungstênio",
+      "Massa": 183.84,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d⁴ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 75,
+      "Simbolo": "Re",
+      "Nome_Elemento": "Rênio",
+      "Massa": 186.21,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d⁵ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 76,
+      "Simbolo": "Os",
+      "Nome_Elemento": "Ósmio",
+      "Massa": 190.23,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d⁶ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 77,
+      "Simbolo": "Ir",
+      "Nome_Elemento": "Irídio",
+      "Massa": 192.22,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d⁷ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 78,
+      "Simbolo": "Pt",
+      "Nome_Elemento": "Platina",
+      "Massa": 195.08,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 79,
+      "Simbolo": "Au",
+      "Nome_Elemento": "Ouro",
+      "Massa": 196.97,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 80,
+      "Simbolo": "Hg",
+      "Nome_Elemento": "Mercúrio",
+      "Massa": 200.59,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 81,
+      "Simbolo": "Tl",
+      "Nome_Elemento": "Tálio",
+      "Massa": 204.38,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 82,
+      "Simbolo": "Pb",
+      "Nome_Elemento": "Chumbo",
+      "Massa": 207.2,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 83,
+      "Simbolo": "Bi",
+      "Nome_Elemento": "Bismuto",
+      "Massa": 208.98,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 84,
+      "Simbolo": "Po",
+      "Nome_Elemento": "Polônio",
+      "Massa": 209,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 85,
+      "Simbolo": "At",
+      "Nome_Elemento": "Astato",
+      "Massa": 210,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+      "Classificacao": "Halogênio"
+   },
+   {
+      "Numero_Atomico": 86,
+      "Simbolo": "Rn",
+      "Nome_Elemento": "Radônio",
+      "Massa": 222,
+      "Camada_Eletrons": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+      "Classificacao": "Gás nobre"
+   },
+   {
+      "Numero_Atomico": 87,
+      "Simbolo": "Fr",
+      "Nome_Elemento": "Frâncio",
+      "Massa": 223,
+      "Camada_Eletrons": "[Rn] 7s¹",
+      "Classificacao": "Metal alcalino"
+   },
+   {
+      "Numero_Atomico": 88,
+      "Simbolo": "Ra",
+      "Nome_Elemento": "Rádio",
+      "Massa": 226,
+      "Camada_Eletrons": "[Rn] 7s²",
+      "Classificacao": "Metal alcalino-terroso"
+   },
+   {
+      "Numero_Atomico": 89,
+      "Simbolo": "Ac",
+      "Nome_Elemento": "Actínio",
+      "Massa": 227,
+      "Camada_Eletrons": "[Rn] 6d¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 90,
+      "Simbolo": "Th",
+      "Nome_Elemento": "Tório",
+      "Massa": 232.04,
+      "Camada_Eletrons": "[Rn] 6d² 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 91,
+      "Simbolo": "Pa",
+      "Nome_Elemento": "Protactínio",
+      "Massa": 231.04,
+      "Camada_Eletrons": "[Rn] 5f² 6d¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 92,
+      "Simbolo": "U",
+      "Nome_Elemento": "Urânio",
+      "Massa": 238.03,
+      "Camada_Eletrons": "[Rn] 5f³ 6d¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 93,
+      "Simbolo": "Np",
+      "Nome_Elemento": "Neptúnio",
+      "Massa": 237,
+      "Camada_Eletrons": "[Rn] 5f⁴ 6d¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 94,
+      "Simbolo": "Pu",
+      "Nome_Elemento": "Plutônio",
+      "Massa": 244,
+      "Camada_Eletrons": "[Rn] 5f⁶ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 95,
+      "Simbolo": "Am",
+      "Nome_Elemento": "Amerício",
+      "Massa": 243,
+      "Camada_Eletrons": "[Rn] 5f⁷ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 96,
+      "Simbolo": "Cm",
+      "Nome_Elemento": "Cúrio",
+      "Massa": 247,
+      "Camada_Eletrons": "[Rn] 5f⁷ 6d¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 97,
+      "Simbolo": "Bk",
+      "Nome_Elemento": "Berquélio",
+      "Massa": 247,
+      "Camada_Eletrons": "[Rn] 5f⁹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 98,
+      "Simbolo": "Cf",
+      "Nome_Elemento": "Califórnio",
+      "Massa": 251,
+      "Camada_Eletrons": "[Rn] 5f¹⁰ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 99,
+      "Simbolo": "Es",
+      "Nome_Elemento": "Einstênio",
+      "Massa": 252,
+      "Camada_Eletrons": "[Rn] 5f¹¹ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 100,
+      "Simbolo": "Fm",
+      "Nome_Elemento": "Férmio",
+      "Massa": 257,
+      "Camada_Eletrons": "[Rn] 5f¹² 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 101,
+      "Simbolo": "Md",
+      "Nome_Elemento": "Mendelévio",
+      "Massa": 258,
+      "Camada_Eletrons": "[Rn] 5f¹³ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 102,
+      "Simbolo": "No",
+      "Nome_Elemento": "Nobélio",
+      "Massa": 259,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 7s²",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 103,
+      "Simbolo": "Lr",
+      "Nome_Elemento": "Laurêncio",
+      "Massa": 266,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 7s² 7p¹",
+      "Classificacao": "Actinídeo"
+   },
+   {
+      "Numero_Atomico": 104,
+      "Simbolo": "Rf",
+      "Nome_Elemento": "Rutherfórdio",
+      "Massa": 267,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d² 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 105,
+      "Simbolo": "Db",
+      "Nome_Elemento": "Dúbnio",
+      "Massa": 268,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d³ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 106,
+      "Simbolo": "Sg",
+      "Nome_Elemento": "Seabórgio",
+      "Massa": 269,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d⁴ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 107,
+      "Simbolo": "Bh",
+      "Nome_Elemento": "Bóhrio",
+      "Massa": 270,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d⁵ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 108,
+      "Simbolo": "Hs",
+      "Nome_Elemento": "Hássio",
+      "Massa": 277,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d⁶ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 109,
+      "Simbolo": "Mt",
+      "Nome_Elemento": "Meitnério",
+      "Massa": 278,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d⁷ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 110,
+      "Simbolo": "Ds",
+      "Nome_Elemento": "Darmstácio",
+      "Massa": 281,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d⁹ 7s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 111,
+      "Simbolo": "Rg",
+      "Nome_Elemento": "Roentgênio",
+      "Massa": 282,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s¹",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 112,
+      "Simbolo": "Cn",
+      "Nome_Elemento": "Copernício",
+      "Massa": 285,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+      "Classificacao": "Metal de transição"
+   },
+   {
+      "Numero_Atomico": 113,
+      "Simbolo": "Nh",
+      "Nome_Elemento": "Nihônio",
+      "Massa": 286,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 114,
+      "Simbolo": "Fl",
+      "Nome_Elemento": "Fleróvio",
+      "Massa": 289,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 115,
+      "Simbolo": "Mc",
+      "Nome_Elemento": "Moscóvio",
+      "Massa": 290,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 116,
+      "Simbolo": "Lv",
+      "Nome_Elemento": "Livermório",
+      "Massa": 293,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+      "Classificacao": "Metal"
+   },
+   {
+      "Numero_Atomico": 117,
+      "Simbolo": "Ts",
+      "Nome_Elemento": "Tenessino",
+      "Massa": 294,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+      "Classificacao": "Metalóide"
+   },
+   {
+      "Numero_Atomico": 118,
+      "Simbolo": "Og",
+      "Nome_Elemento": "Oganessônio",
+      "Massa": 294,
+      "Camada_Eletrons": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+      "Classificacao": "Não metal"
+   }
+]

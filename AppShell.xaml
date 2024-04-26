@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ElementosQuimicos.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ElementosQuimicos"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ElementosQuimicos">
+
+    <ShellContent
+        Title="Elementos Químicos"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" 
+        Style="{DynamicResource StyleShellHeader}"/>
+
+    <Shell.TitleView>
+        <FlexLayout Padding="0" Margin="0">
+            <Image Source="periodic_table_of_elements.png" HorizontalOptions="Start" WidthRequest="45" Margin="0,0,5,0"/>
+            <Label Text="Elements" VerticalOptions="Center" FontSize="25" TextColor="White" FontFamily="comicbd.ttf"/>
+        </FlexLayout>
+    </Shell.TitleView>
+
+</Shell>
