@@ -40,21 +40,27 @@ namespace ElementosQuimicos.ModelViews
             string pathFile = @"elementos_quimicos.json";
             string jsonString;
 
-            using (Stream stream = await FileSystem.OpenAppPackageFileAsync(pathFile))
+            try
             {
-                using (StreamReader reader = new StreamReader(stream))
+                using (Stream stream = await FileSystem.OpenAppPackageFileAsync(pathFile))
                 {
-                    jsonString = await reader.ReadToEndAsync();
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        jsonString = await reader.ReadToEndAsync();
 
-                    List<ElementoQuimico> elementos = JsonSerializer.Deserialize<List<ElementoQuimico>>(jsonString);
+                        List<ElementoQuimico> elementos = JsonSerializer.Deserialize<List<ElementoQuimico>>(jsonString);
 
-                    Elementt = elementos.Find(e => e.Numero_Atomico == SimboloEntry);
+                        Elementt = elementos.Find(e => e.Numero_Atomico == SimboloEntry);
 
 
-                    VerificarClassificacao();
+                        VerificarClassificacao();
+                    }
                 }
-            }   
-
+            }
+            catch (Exception)
+            {
+                return;
+            }
 
             //using (FileStream stream = File.OpenRead(pathFile))
             //{

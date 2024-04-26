@@ -19,7 +19,8 @@ namespace ElementosQuimicos
 
         private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Info", "Developer by @yLith", "OK");
+            await DisplayAlert("Sobre", "Developer by @yLith\n\nInfo:\nExistem cerca 118 elementos quimicos, para buscar o elemento desejedo " +
+                "basta digitar o número \"Atômico\"", "OK");
         }
     }
 

@@ -8,20 +8,17 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Clicked="ToolbarItem_Clicked" IconImageSource="icons8_info.png"/>
     </ContentPage.ToolbarItems>
-    <VerticalStackLayout>
-        <HorizontalStackLayout Margin="20, 0, 20, 0" HorizontalOptions="Center">
-            <!--Simbolo do Elemento-->
-            <Label Text="{Binding Elementt.Simbolo}" FontFamily="comicbd.ttf" FontSize="55" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" TextColor="{Binding CorClassificação}" FontAttributes="Bold" Grid.Column="1" Grid.Row="0"/>
-        </HorizontalStackLayout>
 
-        <VerticalStackLayout>
-            <Frame BackgroundColor="{Binding CorClassificação}" CornerRadius="35" Margin="20, 0, 20, 0" HeightRequest="310">
+    <ScrollView HorizontalOptions="Center" Margin="10,0,10,0">
+        <VerticalStackLayout >
+            <!--Simbolo do Elemento-->
+            <Label HorizontalOptions="Center" Text="{Binding Elementt.Simbolo}" FontFamily="comicbd.ttf" FontSize="60" TextColor="{Binding CorClassificação}" FontAttributes="Bold"/>
+
+            <Frame BackgroundColor="{Binding CorClassificação}" BorderColor="Transparent" CornerRadius="10" HeightRequest="310">
                 <VerticalStackLayout>
 
                     <!--Nome do Elemento-->
-                    <StackLayout >
-                        <Label Text="{Binding Elementt.Nome_Elemento}" FontFamily="comicbd.ttf" TextColor="White" HorizontalOptions="Start" FontSize="30"/>
-                    </StackLayout>
+                    <Label Text="{Binding Elementt.Nome_Elemento}" FontFamily="comicbd.ttf" TextColor="White" HorizontalOptions="Start" FontSize="30"/>
 
                     <!--Numero Atômico do Elemento-->
                     <Label Text="Número Atômico:" TextColor="White" FontSize="25" FontFamily="comic.ttf"/>
@@ -39,11 +36,15 @@
 
                 </VerticalStackLayout>
             </Frame>
-        </VerticalStackLayout>
-        <StackLayout>
-            <Entry Text="{Binding SimboloEntry}" PlaceholderColor="Gray" Margin="30, 5, 30, 0" Placeholder="Digite o Numero Atômico" FontSize="20" FontFamily="comic.ttf" />
-            <Button Command="{Binding CarregarElementosCommand}" Margin="30, 0, 30, 0" Text="Buscar" CornerRadius="10" FontSize="20" FontFamily="comic.ttf" TextColor="White" BackgroundColor="#15B6C2"/>
-        </StackLayout>
-    </VerticalStackLayout>
+            <Grid HorizontalOptions="Center" Margin="0,15,0,0" ColumnDefinitions="*, *">
 
+                <Frame Grid.Column="0" Padding="0" Margin="0,0,10,0" BackgroundColor="LightGrey" >
+                    <Entry Text="{Binding SimboloEntry}" TextColor="#15B6C2" PlaceholderColor="Gray" Placeholder="Digite o Numero Atômico" FontSize="20" FontFamily="comic.ttf" />
+                </Frame>
+
+                <Button WidthRequest="150" Grid.Column="1" Command="{Binding CarregarElementosCommand}" Text="Buscar" FontSize="20" FontFamily="comic.ttf" TextColor="White" BackgroundColor="#15B6C2"/>
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
